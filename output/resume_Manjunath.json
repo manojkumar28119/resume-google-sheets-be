@@ -1,0 +1,41 @@
+{
+  "full_name": "Manjunath",
+  "email": "manjunathtest0@gmail.com",
+  "phone": "7788878878",
+  "linkedin": "https://linkedin.com/in/teja",
+  "github": "https://github.com/teja",
+  "career_objective": "Motivated and detail-oriented recent graduate seeking a challenging role in a reputable organization where I can leverage my technical skills and passion for learning to contribute effectively.",
+  "education": "B.Tech in Computer Science Engineering, JNTU, 2024",
+  "skills": [
+    "Python",
+    "Java",
+    "HTML",
+    "CSS",
+    "SQL"
+  ],
+  "projects": [
+    {
+      "title": "Ecommerce Clone",
+      "technologies": "HTML, CSS, JavaScript, Python, SQL",
+      "description": "Developed a fully functional clone of Amazon featuring product filtering, shopping cart, and user authentication. This project enhanced my skills in web development and reinforced my understanding of backend integration."
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "technologies": "HTML, CSS, JavaScript",
+      "description": "Created a personal portfolio website to showcase my projects and skills. Utilized responsive design techniques to ensure optimal viewing on various devices, improving my frontend development capabilities."
+    }
+  ],
+  "experience": [
+    "Completed an internship focusing on web development technologies and best practices.",
+    "Participated in collaborative coding projects during university coursework, enhancing teamwork skills.",
+    "Engaged in practical lab sessions to apply theoretical knowledge of programming languages.",
+    "Conducted peer coding reviews to foster a collaborative learning environment."
+  ],
+  "certifications": [
+    {
+      "title": "AWS Workshop",
+      "provider": "Nxtwave",
+      "date": "2023"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+2025-07-03 11:45:49,740 - __main__ - INFO - Loading environment variables...
+2025-07-03 11:45:49,740 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 11:45:49,839 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 11:45:49,839 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 11:45:49,839 - __main__ - INFO - Processing sample input data
+2025-07-03 11:45:49,839 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 11:45:49,839 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 11:45:49,839 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 11:45:54,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 11:45:54,199 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 11:45:54,200 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 11:45:54,200 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 11:45:54,200 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 11:45:54,201 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 11:57:33,932 - __main__ - INFO - Loading environment variables...
+2025-07-03 11:57:33,934 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 11:57:33,995 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 11:57:33,995 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 11:57:33,995 - __main__ - INFO - Processing sample input data
+2025-07-03 11:57:33,995 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 11:57:33,995 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 11:57:33,995 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 11:57:38,713 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 11:57:38,718 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 11:57:38,719 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 11:57:38,719 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 11:57:38,719 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 11:57:38,720 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 12:01:25,007 - __main__ - INFO - Loading environment variables...
+2025-07-03 12:01:25,007 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 12:01:25,048 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 12:01:25,048 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 12:01:25,048 - __main__ - INFO - Processing sample input data
+2025-07-03 12:01:25,048 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 12:01:25,048 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 12:01:25,048 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 12:01:32,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 12:01:32,739 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 12:01:32,741 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 12:01:32,741 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 12:01:32,741 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 12:01:32,744 - __main__ - INFO - Saved GPT resume output to output/resume_Manjunath.json
+2025-07-03 12:01:32,744 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 12:10:14,533 - __main__ - INFO - Loading environment variables...
+2025-07-03 12:10:14,533 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 12:10:14,590 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 12:10:14,591 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 12:10:14,591 - __main__ - INFO - Processing sample input data
+2025-07-03 12:10:14,591 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 12:10:14,591 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 12:10:14,591 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 12:10:20,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 12:10:20,614 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 12:10:20,618 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 12:10:20,618 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 12:10:20,618 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 12:10:20,618 - __main__ - INFO - Saved GPT resume output to output/resume_Manjunath.json
+2025-07-03 12:10:20,622 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 12:15:57,147 - __main__ - INFO - Loading environment variables...
+2025-07-03 12:15:57,147 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 12:15:57,181 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 12:15:57,181 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 12:15:57,181 - __main__ - INFO - Processing sample input data
+2025-07-03 12:15:57,181 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 12:15:57,181 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 12:15:57,181 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 12:16:03,813 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 12:16:03,815 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 12:16:03,816 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 12:16:03,816 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 12:16:03,816 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 12:16:03,816 - __main__ - INFO - Saved GPT resume output to output/resume_Manjunath.json
+2025-07-03 12:16:03,817 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 12:16:46,510 - __main__ - INFO - Loading environment variables...
+2025-07-03 12:16:46,510 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 12:16:46,546 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 12:16:46,546 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 12:16:46,546 - __main__ - INFO - Processing sample input data
+2025-07-03 12:16:46,546 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 12:16:46,546 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 12:16:46,546 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 12:16:50,694 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 12:16:50,700 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 12:16:50,700 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 12:16:50,700 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 12:16:50,700 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 12:16:50,702 - __main__ - INFO - Saved GPT resume output to output/resume_Manjunath.json
+2025-07-03 12:16:50,703 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 12:23:40,026 - __main__ - INFO - Loading environment variables...
+2025-07-03 12:23:40,026 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 12:23:40,070 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 12:23:40,070 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 12:23:40,070 - __main__ - INFO - Processing sample input data
+2025-07-03 12:23:40,070 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 12:23:40,070 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 12:23:40,070 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 12:23:45,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 12:23:45,308 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 12:23:45,308 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 12:23:45,308 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 12:23:45,308 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 12:23:45,308 - __main__ - INFO - Saved GPT resume output to output/resume_Manjunath.json
+2025-07-03 12:23:45,312 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 13:11:31,139 - __main__ - INFO - Loading environment variables...
+2025-07-03 13:11:31,139 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 13:11:31,210 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 13:11:31,210 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 13:11:31,210 - __main__ - INFO - Processing sample input data
+2025-07-03 13:11:31,210 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 13:11:31,210 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 13:11:31,210 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 13:11:41,494 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 13:11:41,506 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 13:11:41,508 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 13:11:41,508 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 13:11:41,508 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 13:11:41,510 - __main__ - INFO - Saved GPT resume output to output/resume_Manjunath.json
+2025-07-03 13:11:41,514 - __main__ - INFO - GPT Engine script execution completed
+2025-07-03 14:41:40,925 - __main__ - INFO - Loading environment variables...
+2025-07-03 14:41:40,925 - __main__ - INFO - Initializing OpenAI client...
+2025-07-03 14:41:40,979 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-03 14:41:40,979 - __main__ - INFO - Starting GPT Engine script execution
+2025-07-03 14:41:40,979 - __main__ - INFO - Processing sample input data
+2025-07-03 14:41:40,979 - __main__ - INFO - Starting resume JSON generation
+2025-07-03 14:41:40,979 - __main__ - INFO - Building JSON prompt for user data
+2025-07-03 14:41:40,979 - __main__ - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-03 14:41:51,508 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-03 14:41:51,511 - __main__ - INFO - Successfully received response from OpenAI API
+2025-07-03 14:41:51,511 - __main__ - INFO - Attempting to parse JSON response
+2025-07-03 14:41:51,511 - __main__ - INFO - Successfully parsed JSON response
+2025-07-03 14:41:51,511 - __main__ - INFO - Resume generation completed successfully
+2025-07-03 14:41:51,523 - __main__ - INFO - Saved GPT resume output to output/resume_Manjunath.json
+2025-07-03 14:41:51,523 - __main__ - INFO - GPT Engine script execution completed
