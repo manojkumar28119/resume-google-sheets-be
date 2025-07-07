@@ -3,3 +3,4 @@ python-docx
 docx2pdf
 python-dotenv
 flask
+flask-cors
