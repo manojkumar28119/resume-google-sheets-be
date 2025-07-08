@@ -144,6 +144,11 @@ def generate_resume_json(user_data: dict) -> dict:
         parsed_json = json.loads(content)
         logger.info("Successfully parsed JSON response")
         logger.debug(f"Parsed JSON keys: {list(parsed_json.keys())}")
+        if parsed_json:
+          # ✅ Add back essential contact info (GPT doesn't return these)
+          parsed_json["full_name"] = user_data["full_name"]
+          parsed_json["email"] = user_data["email_address"]
+          parsed_json["phone"] = user_data["phone_number"]
         
         return parsed_json
 
@@ -166,37 +171,37 @@ def save_json(data, filename="output/gpt_resume_data.json"):
     logger.info(f"Saved GPT resume output to {filename}")
 
 
-if __name__ == "__main__":
-    logger.info("Starting GPT Engine script execution")
+# if __name__ == "__main__":
+#     logger.info("Starting GPT Engine script execution")
     
-    sample_input = {
-        "full_name": "Manjunath",
-        "email": "manjunathtest0@gmail.com",
-        "phone": "7788878878",
-        "career_objective": "To obtain a challenging role in a reputable organization.",
-        "education": "B.Tech in CSE, JNTU, 2024",
-        "skills": "Python, Java, HTML, CSS, SQL",
-        "projects": "Ecommerce Clone - Built a clone of Amazon with product filtering, cart, etc.",
-        "experience": "Fresher",
-        "certifications": "AWS Workshop by Nxtwave",
-        "linkedin": "https://linkedin.com/in/teja",
-        "github": "https://github.com/teja",
-        "job_description": ""
-    }
+#     sample_input = {
+#         "full_name": "Manjunath",
+#         "email": "manjunathtest0@gmail.com",
+#         "phone": "7788878878",
+#         "career_objective": "To obtain a challenging role in a reputable organization.",
+#         "education": "B.Tech in CSE, JNTU, 2024",
+#         "skills": "Python, Java, HTML, CSS, SQL",
+#         "projects": "Ecommerce Clone - Built a clone of Amazon with product filtering, cart, etc.",
+#         "experience": "Fresher",
+#         "certifications": "AWS Workshop by Nxtwave",
+#         "linkedin": "https://linkedin.com/in/teja",
+#         "github": "https://github.com/teja",
+#         "job_description": ""
+#     }
     
-    logger.info("Processing sample input data")
-    output = generate_resume_json(sample_input)
+#     logger.info("Processing sample input data")
+#     output = generate_resume_json(sample_input)
     
-    if output:
-        logger.info("Resume generation completed successfully")
-         # ✅ Add back essential contact info (GPT doesn't return these)
-        output["full_name"] = sample_input["full_name"]
-        output["email"] = sample_input["email"]
-        output["phone"] = sample_input["phone"]
-        save_json(output, filename=f"output/resume_{sample_input['full_name'].replace(' ', '_')}.json")
-        print(json.dumps(output, indent=2))
-    else:
-        logger.warning("Resume generation returned empty result")
-        print("Failed to generate resume")
+#     if output:
+#         logger.info("Resume generation completed successfully")
+#          # ✅ Add back essential contact info (GPT doesn't return these)
+#         output["full_name"] = sample_input["full_name"]
+#         output["email"] = sample_input["email"]
+#         output["phone"] = sample_input["phone"]
+#         save_json(output, filename=f"output/resume_{sample_input['full_name'].replace(' ', '_')}.json")
+#         print(json.dumps(output, indent=2))
+#     else:
+#         logger.warning("Resume generation returned empty result")
+#         print("Failed to generate resume")
     
-    logger.info("GPT Engine script execution completed")
+#     logger.info("GPT Engine script execution completed")

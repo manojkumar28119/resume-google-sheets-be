@@ -63,7 +63,7 @@ def load_json(json_path):
     with open(json_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-if __name__ == "__main__":
-    data = load_json("output/resume_Manjunath.json")  # update path if needed
-    data["full_name"] = "Manjunath"  # Ensure it's there for file naming
-    fill_resume_template(data)
+# if __name__ == "__main__":
+#     data = load_json("output/resume_Manjunath.json")  # update path if needed
+#     data["full_name"] = "Manjunath"  # Ensure it's there for file naming
+#     fill_resume_template(data)

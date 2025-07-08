@@ -164,6 +164,60 @@ def verify_payment():
 
 
 
+@app.route("/generate_resume", methods=["POST"])
+def generate_resume():
+    try:
+        data = request.get_json()
+        if not data or "id" not in data:
+            return jsonify({"error": "Missing ID"}), 400
+
+        submission_id = data["id"]
+
+        # Connect to DB and fetch submission
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM resume_requests WHERE id = ? AND is_verified = 1", (submission_id,))
+        row = cursor.fetchone()
+        conn.close()
+
+        if not row:
+            return jsonify({"error": "Submission not found or not verified"}), 404
+
+        # Map DB row to keys
+        columns = [column[0] for column in cursor.description]
+        form_data = dict(zip(columns, row))
+
+        # Run your existing resume pipeline
+        from resume_filler import fill_resume_template
+        from gpt_engine import generate_resume_json
+        from email_sender import send_email
+
+        resume_json = generate_resume_json(form_data)
+        resume_path = fill_resume_template(resume_json)
+        send_email(
+            recipient=form_data["email_address"],
+            subject="Your AI-Generated Resume",
+            attachment_path=resume_path,
+            delete_after_send=True
+        )
+
+        # Update database to mark resume as sent
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("UPDATE resume_requests SET resume_sent = 1 WHERE id = ?", (submission_id,))
+        conn.commit()
+        conn.close()
+
+        logger.info(f"Resume generated and emailed successfully for submission ID {submission_id}")
+        return jsonify({"message": "Resume generated and emailed successfully."}), 200
+
+    except Exception as e:
+        logger.error(f"Error generating resume: {str(e)}")
+        logger.exception("Full exception details:")
+        return jsonify({"error": str(e)}), 500
+
+
+
 if __name__ == "__main__":
     logger.info("Starting Flask development server...")
     app.run(debug=True, host='0.0.0.0', port=5000)
