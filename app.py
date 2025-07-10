@@ -193,6 +193,7 @@ def generate_resume():
         from email_sender import send_email
 
         resume_json = generate_resume_json(form_data)
+        print(resume_json)
         resume_path = fill_resume_template(resume_json)
         send_email(
             recipient=form_data["email_address"],

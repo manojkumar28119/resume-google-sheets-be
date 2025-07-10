@@ -657,3 +657,517 @@ KeyError: 'email'
 2025-07-08 19:07:23,915 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 19:07:23] "POST /generate_resume HTTP/1.1" 200 -
 2025-07-08 19:10:04,650 - __main__ - INFO - Flask server stopped
 2025-07-08 19:10:04,863 - __main__ - INFO - Flask server stopped
+2025-07-10 15:08:25,441 - __main__ - INFO - Database already exists.
+2025-07-10 15:08:25,444 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:08:25,509 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.1.108:5000
+2025-07-10 15:08:25,509 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 15:08:25,512 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:08:25,686 - __main__ - INFO - Database already exists.
+2025-07-10 15:08:25,686 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:08:25,699 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:08:25,701 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:09:08,825 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\app.py', reloading
+2025-07-10 15:09:08,864 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:09:09,069 - __main__ - INFO - Database already exists.
+2025-07-10 15:09:09,070 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:09:09,083 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:09:09,084 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:10:37,249 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:10:37,251 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:10:37,439 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:10:37,478 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:10:37,478 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:10:37,479 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:10:43,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:10:43,460 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:10:43,460 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:10:43,460 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:10:47,481 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:10:47,487 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:10:47,487 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:10:47] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:11:40,512 - __main__ - INFO - Returning 1 submissions
+2025-07-10 15:11:40,512 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:11:40] "GET /all HTTP/1.1" 200 -
+2025-07-10 15:12:29,068 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\app.py', reloading
+2025-07-10 15:12:29,202 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:12:29,440 - __main__ - INFO - Database already exists.
+2025-07-10 15:12:29,441 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:12:29,459 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:12:29,469 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:12:30,480 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\app.py', reloading
+2025-07-10 15:12:30,515 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:12:30,751 - __main__ - INFO - Database already exists.
+2025-07-10 15:12:30,751 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:12:30,767 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:12:30,769 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:12:35,255 - __main__ - INFO - Returning 1 submissions
+2025-07-10 15:12:35,255 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:12:35] "GET /all HTTP/1.1" 200 -
+2025-07-10 15:12:40,444 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:12:40,444 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:12:40,488 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:12:40,500 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:12:40,500 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:12:40,500 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:12:49,850 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:12:49,853 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:12:49,853 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:12:49,854 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:12:49,862 - __main__ - ERROR - Error generating resume: [Errno 13] Permission denied: 'output\\resume_cdsfdsfdsf.docx'
+2025-07-10 15:12:49,862 - __main__ - ERROR - Full exception details:
+Traceback (most recent call last):
+  File "C:\Users\ManojkumarSrirapu\Desktop\project\Ai resume builder\app.py", line 197, in generate_resume
+    resume_path = fill_resume_template(resume_json)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManojkumarSrirapu\Desktop\project\Ai resume builder\resume_filler.py", line 20, in fill_resume_template
+    doc.save(output_path)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\document.py", line 204, in save
+    self._part.save(path_or_stream)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\parts\document.py", line 114, in save
+    self.package.save(path_or_stream)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\opc\package.py", line 166, in save
+    PackageWriter.write(pkg_file, self.rels, self.parts)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\opc\pkgwriter.py", line 34, in write
+    phys_writer = PhysPkgWriter(pkg_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\opc\phys_pkg.py", line 109, in __init__
+    self._zipf = ZipFile(pkg_file, "w", compression=ZIP_DEFLATED)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'output\\resume_cdsfdsfdsf.docx'
+2025-07-10 15:12:49,927 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:12:49] "[35m[1mPOST /generate_resume HTTP/1.1[0m" 500 -
+2025-07-10 15:13:32,020 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\app.py', reloading
+2025-07-10 15:13:32,153 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:13:32,351 - __main__ - INFO - Database already exists.
+2025-07-10 15:13:32,367 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:13:32,368 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:13:32,382 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:13:38,409 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\app.py', reloading
+2025-07-10 15:13:38,438 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:13:38,694 - __main__ - INFO - Database already exists.
+2025-07-10 15:13:38,694 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:13:38,701 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:13:38,712 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:13:40,726 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\app.py', reloading
+2025-07-10 15:13:40,770 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:13:40,980 - __main__ - INFO - Database already exists.
+2025-07-10 15:13:40,980 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:13:40,984 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:13:40,996 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:13:42,994 - __main__ - INFO - Flask server stopped
+2025-07-10 15:13:43,022 - __main__ - INFO - Flask server stopped
+2025-07-10 15:13:45,848 - __main__ - INFO - Database already exists.
+2025-07-10 15:13:45,848 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:13:45,876 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.1.108:5000
+2025-07-10 15:13:45,876 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 15:13:45,877 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:13:46,034 - __main__ - INFO - Database already exists.
+2025-07-10 15:13:46,034 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:13:46,053 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:13:46,053 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:13:52,838 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:13:52,838 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:13:52,873 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:13:52,878 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:13:52,880 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:13:52,880 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:14:00,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:14:00,497 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:14:00,497 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:14:00,497 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:14:00,506 - __main__ - ERROR - Error generating resume: [Errno 13] Permission denied: 'output\\resume_cdsfdsfdsf.docx'
+2025-07-10 15:14:00,506 - __main__ - ERROR - Full exception details:
+Traceback (most recent call last):
+  File "C:\Users\ManojkumarSrirapu\Desktop\project\Ai resume builder\app.py", line 197, in generate_resume
+    resume_path = fill_resume_template(resume_json)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManojkumarSrirapu\Desktop\project\Ai resume builder\resume_filler.py", line 20, in fill_resume_template
+    doc.save(output_path)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\document.py", line 204, in save
+    self._part.save(path_or_stream)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\parts\document.py", line 114, in save
+    self.package.save(path_or_stream)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\opc\package.py", line 166, in save
+    PackageWriter.write(pkg_file, self.rels, self.parts)
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\opc\pkgwriter.py", line 34, in write
+    phys_writer = PhysPkgWriter(pkg_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\site-packages\docx\opc\phys_pkg.py", line 109, in __init__
+    self._zipf = ZipFile(pkg_file, "w", compression=ZIP_DEFLATED)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManojkumarSrirapu\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'output\\resume_cdsfdsfdsf.docx'
+2025-07-10 15:14:00,508 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:14:00] "[35m[1mPOST /generate_resume HTTP/1.1[0m" 500 -
+2025-07-10 15:14:13,995 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:14:13,996 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:14:13,996 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:14:19,207 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:14:19,209 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:14:19,210 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:14:19,211 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:14:23,269 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:14:23,270 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:14:23,270 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:14:23] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:17:48,419 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:17:48,565 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:17:48,723 - __main__ - INFO - Database already exists.
+2025-07-10 15:17:48,723 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:17:48,739 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:17:48,751 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:17:50,764 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:17:50,791 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:17:50,961 - __main__ - INFO - Database already exists.
+2025-07-10 15:17:50,962 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:17:50,974 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:17:50,977 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:17:58,177 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:17:58,177 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:17:58,211 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:17:58,216 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:17:58,216 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:17:58,216 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:18:03,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:18:03,545 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:18:03,545 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:18:03,547 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:18:07,667 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:18:07,669 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:18:07,670 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:18:07] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:18:38,212 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:18:38,334 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:18:38,506 - __main__ - INFO - Database already exists.
+2025-07-10 15:18:38,507 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:18:38,520 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:18:38,522 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:19:05,672 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:19:05,707 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:19:05,891 - __main__ - INFO - Database already exists.
+2025-07-10 15:19:05,892 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:19:05,910 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:19:05,912 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:19:19,983 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:19:20,018 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:19:20,195 - __main__ - INFO - Database already exists.
+2025-07-10 15:19:20,196 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:19:20,207 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:19:20,209 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:19:23,234 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:19:23,260 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:19:23,457 - __main__ - INFO - Database already exists.
+2025-07-10 15:19:23,458 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:19:23,478 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:19:23,480 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:19:27,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:19:27,528 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:19:27,716 - __main__ - INFO - Database already exists.
+2025-07-10 15:19:27,717 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:19:27,730 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:19:27,732 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:19:31,207 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:19:31,208 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:19:31,245 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:19:31,253 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:19:31,253 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:19:31,254 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:19:36,764 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:19:36,769 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:19:36,769 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:19:36,769 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:19:40,629 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:19:40,630 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:19:40,631 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:19:40] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:20:14,990 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:20:15,127 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:20:15,334 - __main__ - INFO - Database already exists.
+2025-07-10 15:20:15,335 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:20:15,350 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:20:15,353 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:20:16,368 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:20:16,399 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:20:16,576 - __main__ - INFO - Database already exists.
+2025-07-10 15:20:16,576 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:20:16,589 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:20:16,592 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:20:21,081 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:20:21,082 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:20:21,142 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:20:21,148 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:20:21,148 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:20:21,148 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:20:26,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:20:26,420 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:20:26,422 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:20:26,422 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:20:30,219 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:20:30,220 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:20:30,221 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:20:30] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:20:59,805 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:20:59,938 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:00,108 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:00,109 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:00,124 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:00,125 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:11,166 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:21:11,193 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:11,375 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:11,375 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:11,389 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:11,391 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:15,409 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:21:15,452 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:15,652 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:15,653 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:15,669 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:15,674 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:16,688 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:21:16,714 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:16,896 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:16,897 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:16,910 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:16,911 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:24,943 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:21:24,971 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:25,163 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:25,163 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:25,179 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:25,181 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:32,209 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:21:32,240 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:32,437 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:32,439 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:32,456 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:32,458 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:38,487 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:21:38,521 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:38,711 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:38,712 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:38,724 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:38,727 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:41,268 - __main__ - INFO - Flask server stopped
+2025-07-10 15:21:41,296 - __main__ - INFO - Flask server stopped
+2025-07-10 15:21:43,996 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:43,996 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:44,022 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.1.108:5000
+2025-07-10 15:21:44,022 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 15:21:44,023 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:21:44,193 - __main__ - INFO - Database already exists.
+2025-07-10 15:21:44,194 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:21:44,207 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:21:44,209 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:21:53,506 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:21:53,507 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:21:53,542 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:21:53,550 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:21:53,551 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:21:53,552 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:21:58,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:21:58,366 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:21:58,371 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:21:58,371 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:22:02,183 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:22:02,186 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:22:02,187 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:22:02] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:22:21,382 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:22:21,528 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:22:21,758 - __main__ - INFO - Database already exists.
+2025-07-10 15:22:21,759 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:22:21,780 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:22:21,782 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:24:23,524 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:24:23,551 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:24:23,718 - __main__ - INFO - Database already exists.
+2025-07-10 15:24:23,719 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:24:23,734 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:24:23,739 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:24:44,091 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:24:44,093 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:24:44,194 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:24:44,222 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:24:44,223 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:24:44,223 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:24:50,119 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:24:50,121 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:24:50,121 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:24:50,122 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:24:54,108 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:24:54,109 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:24:54,110 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:24:54] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:26:14,519 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:26:14,673 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:26:14,881 - __main__ - INFO - Database already exists.
+2025-07-10 15:26:14,882 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:26:14,895 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:26:14,899 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:28:47,966 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:28:48,046 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:28:48,315 - __main__ - INFO - Database already exists.
+2025-07-10 15:28:48,316 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:28:48,331 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:28:48,334 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:29:06,195 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:29:06,195 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:29:06,240 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:29:06,248 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:29:06,248 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:29:06,248 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:29:11,373 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:29:11,376 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:29:11,376 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:29:11,376 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:29:15,652 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:29:15,654 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:29:15,655 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:29:15] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:29:34,761 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:29:35,599 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:29:35,766 - __main__ - INFO - Database already exists.
+2025-07-10 15:29:35,782 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:29:35,782 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:29:35,798 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:30:08,925 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:30:08,954 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:30:09,123 - __main__ - INFO - Database already exists.
+2025-07-10 15:30:09,129 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:30:09,142 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:30:09,148 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:30:16,049 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:30:16,050 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:30:16,084 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:30:16,086 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:30:16,086 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:30:16,086 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:30:23,077 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:30:23,077 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:30:23,077 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:30:23,077 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:30:29,753 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:30:29,753 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:30:29,764 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:30:29] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:53:27,339 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:53:27,482 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:53:27,711 - __main__ - INFO - Database already exists.
+2025-07-10 15:53:27,711 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:53:27,724 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:53:27,733 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:53:32,220 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:53:32,220 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:53:32,295 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:53:32,301 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:53:32,301 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:53:32,301 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:53:39,838 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:53:39,846 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:53:39,847 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:53:39,847 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:53:44,919 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:53:44,921 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:53:44,922 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:53:44] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 15:54:07,959 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:54:08,308 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:54:08,482 - __main__ - INFO - Database already exists.
+2025-07-10 15:54:08,482 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:54:08,499 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:54:08,501 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:55:44,023 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 15:55:44,069 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 15:55:44,238 - __main__ - INFO - Database already exists.
+2025-07-10 15:55:44,241 - __main__ - INFO - Starting Flask development server...
+2025-07-10 15:55:44,259 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 15:55:44,263 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 15:55:49,915 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 15:55:49,916 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 15:55:49,954 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 15:55:49,965 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 15:55:49,965 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 15:55:49,965 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 15:55:55,188 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 15:55:55,197 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 15:55:55,198 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 15:55:55,198 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 15:55:59,500 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 15:55:59,500 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 15:55:59,516 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 15:55:59] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 16:01:19,574 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 16:01:19,763 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 16:01:19,930 - __main__ - INFO - Database already exists.
+2025-07-10 16:01:19,930 - __main__ - INFO - Starting Flask development server...
+2025-07-10 16:01:19,946 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 16:01:19,959 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 16:01:24,100 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 16:01:24,100 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 16:01:24,149 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 16:01:24,149 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 16:01:24,149 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 16:01:24,149 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 16:01:30,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 16:01:30,815 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 16:01:30,815 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 16:01:30,815 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 16:01:36,374 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 16:01:36,374 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 16:01:36,374 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 16:01:36] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 16:02:53,471 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\resume_filler.py', reloading
+2025-07-10 16:02:53,627 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 16:02:53,834 - __main__ - INFO - Database already exists.
+2025-07-10 16:02:53,835 - __main__ - INFO - Starting Flask development server...
+2025-07-10 16:02:53,849 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 16:02:53,852 - werkzeug - INFO -  * Debugger PIN: 682-785-141
+2025-07-10 16:03:02,850 - gpt_engine - INFO - Loading environment variables...
+2025-07-10 16:03:02,850 - gpt_engine - INFO - Initializing OpenAI client...
+2025-07-10 16:03:02,898 - gpt_engine - INFO - OpenAI client initialized successfully
+2025-07-10 16:03:02,898 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 16:03:02,898 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 16:03:02,898 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 16:03:07,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 16:03:08,141 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 16:03:08,142 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 16:03:08,142 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 16:03:12,656 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 16:03:12,662 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 16:03:12,665 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 16:03:12] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 17:38:45,162 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 17:38:45,162 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 17:38:45,162 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 17:38:52,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 17:38:52,038 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 17:38:52,038 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 17:38:52,038 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 17:38:58,087 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 17:38:58,090 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 17:38:58,090 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 17:38:58] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 19:17:23,085 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 19:17:23,085 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 19:17:23,085 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 19:17:29,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 19:17:29,228 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 19:17:29,228 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 19:17:29,228 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 19:17:33,834 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 19:17:33,838 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 19:17:33,838 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 19:17:33] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 19:17:54,520 - gpt_engine - INFO - Starting resume JSON generation
+2025-07-10 19:17:54,520 - gpt_engine - INFO - Building JSON prompt for user data
+2025-07-10 19:17:54,520 - gpt_engine - INFO - Making API call to OpenAI GPT-4o-mini
+2025-07-10 19:18:00,666 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 19:18:00,674 - gpt_engine - INFO - Successfully received response from OpenAI API
+2025-07-10 19:18:00,674 - gpt_engine - INFO - Attempting to parse JSON response
+2025-07-10 19:18:00,674 - gpt_engine - INFO - Successfully parsed JSON response
+2025-07-10 19:18:04,968 - email_sender - INFO - Email sent successfully to empty5935@gmail.com
+2025-07-10 19:18:04,969 - __main__ - INFO - Resume generated and emailed successfully for submission ID 1
+2025-07-10 19:18:04,969 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 19:18:04] "POST /generate_resume HTTP/1.1" 200 -
+2025-07-10 19:20:34,148 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ManojkumarSrirapu\\Desktop\\project\\Ai resume builder\\app.py', reloading
+2025-07-10 19:20:34,378 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 19:20:34,880 - __main__ - INFO - Database already exists.
+2025-07-10 19:20:34,887 - __main__ - INFO - Starting Flask development server...
+2025-07-10 19:20:34,913 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 19:20:34,921 - werkzeug - INFO -  * Debugger PIN: 682-785-141
